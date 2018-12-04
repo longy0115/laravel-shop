@@ -56,7 +56,7 @@ class EmailVerificationController extends Controller
         //调用notify() 方法来发送定义好的通知类
         $user->notify(new EmailVerificationNotification());
 
-        return view('pages.success',['msg'=>'验证成功']);
+        return view('pages.success',['msg'=>'邮件发送成功']);
 
     }
 

@@ -54,7 +54,7 @@ class EmailVerificationNotification extends Notification
                     ->greeting($notifiable->name.'您好：')
                     ->subject('注册成功，请验证邮箱')
                     ->line('点击下面链接以验证邮箱')
-                    ->action('Notification Action', $url)
+                    ->action('验证', $url)
                     ->line('Thank you for using our application!');
     }
 
