@@ -227,5 +227,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    //任务执行时间
+    'order_ttl' => 1800,
 
 ];
